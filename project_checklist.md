@@ -5,7 +5,7 @@
 - [ ] Initialize pnpm workspace
 - [ ] Add `turbo.json`
 - [ ] Create base `tsconfig.base.json`
-- [ ] Setup path aliases (`@aura/*`)
+- [ ] Setup path aliases (`@rds/*`)
 - [ ] Add ESLint + Prettier
 
 Structure ready:

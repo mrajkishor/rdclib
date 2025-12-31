@@ -1,5 +1,5 @@
 {
-  "name": "@rdc/ui-core",
+  "name": "@rdc/ui-web",
   "version": "0.0.0",
   "private": true,
   "sideEffects": false,
@@ -9,5 +9,10 @@
     "build": "tsc -b",
     "lint": "eslint src",
     "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@rdc/tokens": "*",
+    "@rdc/ui-core": "*",
+    "react": "^18.2.0"
   }
 }

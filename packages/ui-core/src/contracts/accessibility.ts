@@ -1,17 +1,11 @@
 export interface AccessibilityProps {
     /**
-     * Semantic role of the component
-     * e.g. button, checkbox, text
+     * Semantic role, NOT DOM role
      */
-    role?: string;
+    a11yRole?: "button" | "link" | "checkbox";
 
     /**
-     * Whether the element is focusable / reachable
+     * Accessible label abstraction
      */
-    focusable?: boolean;
-
-    /**
-     * Used to signal importance or emphasis
-     */
-    emphasis?: "low" | "medium" | "high";
+    a11yLabel?: string;
 }
