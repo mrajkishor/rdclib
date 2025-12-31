@@ -8,7 +8,5 @@ export const spacing = {
     6: 24,
     8: 32,
     10: 40,
-    12: 48
+    12: 48,
 } as const;
-
-export type Spacing = keyof typeof spacing;

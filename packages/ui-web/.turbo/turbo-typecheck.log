@@ -1,0 +1,75 @@
+
+> @rdc/ui-web@0.0.0 typecheck C:\aand__everything\Side Projects\rdclib\packages\ui-web
+> tsc --noEmit
+
+../tokens/src/index.ts(1,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/colors.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../tokens/src/index.ts(1,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/colors.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../tokens/src/index.ts(2,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/spacing.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../tokens/src/index.ts(2,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/spacing.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../tokens/src/index.ts(3,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/radius.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../tokens/src/index.ts(3,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/radius.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../tokens/src/index.ts(4,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/typography.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../tokens/src/index.ts(4,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/typography.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../tokens/src/index.ts(5,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/zIndex.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../tokens/src/index.ts(5,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/zIndex.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../tokens/src/index.ts(6,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/motion.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../tokens/src/index.ts(6,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/motion.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../ui-core/src/index.ts(2,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/types/index.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Imported via "./types/index" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/index.ts'
+    Imported via "../types/index" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/size.ts'
+    Imported via "../types/index" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/intent.ts'
+    Imported via "../types/index" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/state.ts'
+    Imported via "../types/index" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/contracts/baseProps.ts'
+../ui-core/src/index.ts(2,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/types/index.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+  The file is in the program because:
+    Imported via "./types/index" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/index.ts'
+    Imported via "../types/index" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/size.ts'
+    Imported via "../types/index" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/intent.ts'
+    Imported via "../types/index" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/state.ts'
+    Imported via "../types/index" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/contracts/baseProps.ts'
+../ui-core/src/index.ts(5,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/size.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../ui-core/src/index.ts(5,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/size.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../ui-core/src/index.ts(6,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/intent.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../ui-core/src/index.ts(6,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/intent.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../ui-core/src/index.ts(7,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/state.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../ui-core/src/index.ts(7,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/variants/state.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../ui-core/src/index.ts(10,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/contracts/baseProps.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../ui-core/src/index.ts(10,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/contracts/baseProps.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../ui-core/src/index.ts(11,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/contracts/interactive.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../ui-core/src/index.ts(11,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/contracts/interactive.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../ui-core/src/index.ts(12,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/contracts/accessibility.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../ui-core/src/index.ts(12,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/contracts/accessibility.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../ui-core/src/types/index.ts(1,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/types/size.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../ui-core/src/types/index.ts(1,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/types/size.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../ui-core/src/types/index.ts(2,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/types/intent.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../ui-core/src/types/index.ts(2,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/types/intent.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+../ui-core/src/types/index.ts(3,15): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/types/state.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+../ui-core/src/types/index.ts(3,15): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/types/state.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+src/components/Stack/Stack.tsx(2,25): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/index.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Imported via "@rdc/tokens" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/components/Stack/Stack.tsx'
+    Imported via "@rdc/tokens" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/components/Button/Button.tsx'
+    Imported via "@rdc/tokens" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/utils/style.ts'
+    Imported via "@rdc/tokens" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/utils/sizeToSpacing.ts'
+src/components/Stack/Stack.tsx(2,25): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/tokens/src/index.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+  The file is in the program because:
+    Imported via "@rdc/tokens" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/components/Stack/Stack.tsx'
+    Imported via "@rdc/tokens" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/components/Button/Button.tsx'
+    Imported via "@rdc/tokens" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/utils/style.ts'
+    Imported via "@rdc/tokens" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/utils/sizeToSpacing.ts'
+src/components/Stack/Stack.tsx(15,14): error TS7053: Element implicitly has an 'any' type because expression of type 'Size' can't be used to index type '{ readonly 0: 0; readonly 1: 4; readonly 2: 8; readonly 3: 12; readonly 4: 16; readonly 5: 20; readonly 6: 24; readonly 8: 32; readonly 10: 40; readonly 12: 48; }'.
+  Property 'xs' does not exist on type '{ readonly 0: 0; readonly 1: 4; readonly 2: 8; readonly 3: 12; readonly 4: 16; readonly 5: 20; readonly 6: 24; readonly 8: 32; readonly 10: 40; readonly 12: 48; }'.
+src/components/Stack/Stack.types.ts(2,27): error TS6059: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/index.ts' is not under 'rootDir' 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Imported via "@rdc/ui-core" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/components/Stack/Stack.types.ts'
+    Imported via "@rdc/ui-core" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/components/Button/Button.types.ts'
+    Imported via "@rdc/ui-core" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/utils/style.ts'
+    Imported via "@rdc/ui-core" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/utils/sizeToSpacing.ts'
+src/components/Stack/Stack.types.ts(2,27): error TS6307: File 'C:/aand__everything/Side Projects/rdclib/packages/ui-core/src/index.ts' is not listed within the file list of project 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/tsconfig.json'. Projects must list all files or use an 'include' pattern.
+  The file is in the program because:
+    Imported via "@rdc/ui-core" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/components/Stack/Stack.types.ts'
+    Imported via "@rdc/ui-core" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/components/Button/Button.types.ts'
+    Imported via "@rdc/ui-core" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/utils/style.ts'
+    Imported via "@rdc/ui-core" from file 'C:/aand__everything/Side Projects/rdclib/packages/ui-web/src/utils/sizeToSpacing.ts'
+ ELIFECYCLE  Command failed with exit code 2.
