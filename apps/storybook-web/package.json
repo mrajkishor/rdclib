@@ -1,0 +1,18 @@
+{
+  "name": "@rdc/storybook-web",
+  "private": true,
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "8.6.15",
+    "@storybook/addon-interactions": "8.6.15",
+    "@storybook/react": "8.6.15",
+    "@storybook/react-vite": "8.6.15",
+    "storybook": "8.6.15"
+  },
+  "dependencies": {
+    "@rdc/ui-web": "workspace:^"
+  }
+}

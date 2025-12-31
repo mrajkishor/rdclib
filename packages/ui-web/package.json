@@ -7,6 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -b",
+    "dev": "tsc -b --watch",
     "lint": "eslint src",
     "typecheck": "tsc --noEmit"
   },
@@ -14,5 +15,11 @@
     "@rdc/tokens": "*",
     "@rdc/ui-core": "*",
     "react": "^18.2.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
   }
 }
