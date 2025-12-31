@@ -1,6 +1,6 @@
 # PROJECT CHECKLIST
 
-## Phase 1 – Monorepo Setup
+## [Phase 1 – Monorepo Setup](https://github.com/mrajkishor/rdclib/issues/1)
 
 - [ ] Initialize pnpm workspace
 - [ ] Add `turbo.json`
@@ -17,7 +17,7 @@ apps/
 
 ---
 
-## Phase 2 – Design Tokens (MOST IMPORTANT)
+## [Phase 2 – Design Tokens (MOST IMPORTANT)](https://github.com/mrajkishor/rdclib/issues/3)
 
 - [ ] Colors (light + dark ready)
 - [ ] Spacing scale
@@ -41,7 +41,7 @@ Must be:
 
 ---
 
-## Phase 3 – Shared Core Logic
+## [Phase 3 – Shared Core Logic](https://github.com/mrajkishor/rdclib/issues/5)
 
 - [ ] Component prop contracts
 - [ ] Variant enums
@@ -62,7 +62,7 @@ packages/ui-core
 
 ---
 
-## Phase 4 – React Web Components
+## [Phase 4 – React Web Components](https://github.com/mrajkishor/rdclib/issues/7)
 
 - [ ] Button
 - [ ] Text
@@ -109,7 +109,7 @@ Rules:
 
 ---
 
-## Phase 6 – Storybook (Web)
+## [Phase 6 – Storybook (Web)](https://github.com/mrajkishor/rdclib/issues/9)
 
 - [ ] Setup Storybook with Vite
 - [ ] Global theme provider
