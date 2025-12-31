@@ -1,8 +1,8 @@
 
-> @rdc/ui-core@0.0.0 lint C:\aand__everything\Side Projects\rdclib\packages\ui-core
+> @aura/ui-core@0.0.0 lint C:\aand__everything\Side Projects\rdclib\packages\ui-core
 > eslint src
 
-(node:9960) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/aand__everything/Side%20Projects/rdclib/eslint.config.js?mtime=1767176422348 is not specified and it doesn't parse as CommonJS.
+(node:25248) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/aand__everything/Side%20Projects/rdclib/eslint.config.js?mtime=1767176422348 is not specified and it doesn't parse as CommonJS.
 Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 To eliminate this warning, add "type": "module" to C:\aand__everything\Side Projects\rdclib\package.json.
 (Use `node --trace-warnings ...` to show where the warning was created)
