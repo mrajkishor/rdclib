@@ -1,4 +1,4 @@
 
-> @rdc/ui-core@0.0.0 typecheck C:\aand__everything\Side Projects\rdclib\packages\ui-core
+> @aura/ui-core@0.0.0 typecheck C:\aand__everything\Side Projects\rdclib\packages\ui-core
 > tsc --noEmit
 
